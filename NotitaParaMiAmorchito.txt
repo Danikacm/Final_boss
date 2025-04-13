@@ -1,0 +1,58 @@
+
+Buenos dias primero que todo 🤣
+
+Si estas leyendo esto es porque encontraste mi notita y probablemente sigo dormida porque me acoste tarde xd
+Solo pense que esta informacion podria ser valiosa.
+
+
+1. Columna Riesgo:
+¿Qué mide?
+La columna Riesgo calcula un valor que refleja el nivel de riesgo financiero de cada empresa basado en su saldo de cartera y 
+el tiempo que tienen las deudas sin pagar.
+
+¿Cómo se calcula?
+El cálculo se hace multiplicando el saldo de la deuda de cada empresa en los diferentes rangos de vencimiento (por ejemplo,
+ 0-30 días, 31-60 días, etc.) por un valor que refleja la gravedad de la mora. Los rangos más largos de vencimiento (como "121+")
+  tienen un valor mayor, lo que significa que las deudas más antiguas o vencidas son más perjudiciales y aumentan el riesgo.
+Los valores definidos son:
+
+0-30 días: 1
+
+31-60 días: 1.5
+
+61-90 días: 2
+
+91-120 días: 2.5
+
+121+ días: 3
+
+Ejemplo de riesgo: (0-30dias) 1 * SaldoCartera = riesgo
+
+2. Columna Puntaje:
+¿Qué mide?
+El Puntaje refleja el valor neto o la situación financiera de la empresa después de tener en cuenta el saldo de su deuda y 
+el nivel de riesgo calculado en la columna Riesgo.
+
+¿Cómo se calcula?
+El cálculo se hace restando el valor del Riesgo al SaldoCartera de cada empresa.
+Es decir:
+
+Puntaje = SaldoCartera − Riesgo
+
+Puntaje=SaldoCartera−Riesgo
+
+Un puntaje más bajo indica un mayor nivel de riesgo financiero porque la deuda es alta en relación al saldo disponible. Un puntaje
+ más alto indica una situación financiera más estable.
+
+3. Columna EtiquetaRiesgo:
+¿Qué mide?
+La columna EtiquetaRiesgo clasifica a cada empresa en tres categorías de riesgo basadas en el valor del Puntaje.
+
+¿Cómo se calcula?
+El Puntaje se utiliza para asignar una etiqueta a cada empresa según los siguientes criterios:
+
+Alta: Si el Puntaje es menor que 0, la empresa se considera de alto riesgo.
+
+Media: Si el Puntaje es entre 0 y 10,000, la empresa tiene un riesgo moderado.
+
+Baja: Si el Puntaje es mayor que 10,000, la empresa se considera de bajo riesgo.
